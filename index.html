@@ -1,0 +1,62 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanto Vita</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="headertext">
+            <h1>Quanto <span>Vita</span></h1>
+            <h3>¿Querés saber cuántos años de vida te quedan?</h3>
+        </div>
+    </header>
+    <section>
+        <div class="formulario">
+            <label class="container">¿Usted es Mujer? 
+                <input type="checkbox" name="var1" id="var1"> 
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">¿Usted es Hombre? 
+                <input type="checkbox" name="var2" id="var2"> 
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">¿Usted es fumador? 
+                <input type="checkbox" name="var3" id="var3"> 
+                <span class="checkmark"></span>
+            </label>    
+            <label class="container">¿Usted hace ejercicio semanalmente?
+                <input type="checkbox" name="var4" id="var4"> 
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">¿Usted posee alguna enfermedad crónica? 
+                <input type="checkbox" name="var5" id="var5"> 
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">¿Usted come frutas / verduras frecuentemente? 
+                <input type="checkbox" name="var6" id="var6"> 
+                <span class="checkmark"></span>
+            </label>
+        </div>
+            <div class="containeredad">
+            <p>Ingrese su edad</p>
+            <label class="buttons">     
+                 <input type="number" id="valor" min="18" max="110">
+                 <input type="button" class="boton" id="simulador" value="Ingresar" onclick="convertir()">
+            </label>
+            </div>
+        
+    </section>
+    <footer>
+        <div class="footer">
+            <p>Por el momento solo se puede seleccionar una sola variable - Proyecto en desarrollo - Lucas Clémen</p>
+          </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
